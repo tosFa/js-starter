@@ -6,10 +6,16 @@ If you want to start learning / developing JS apps really fast without spending 
 Installation
 
 git clone https://github.com/tosFa/js-starter.git
+
 cd js-starter
+
 npm install
+
 npm run build - to build the project
+
 npm run start-dev to start an express server with webpack-dev-middleware and webpack-hot-middleware on http://localhost:3000
+
 npm run start-dev-server to start a webpack-dev-server on http://localhost:8080
+
 npm run start to start a "production" server on http://localhost:3001
 
