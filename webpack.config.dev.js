@@ -47,8 +47,8 @@ module.exports = {
         exclude: /node_modules/,
         loaders: ['react-hot', 'babel?presets[]=es2015&presets[]=react&presets[]=stage-0']
       },
-      { test: /\.css$/, loaders: [ 'autoprefixer', 'style', 'css', 'postcss' ] },
-      { test: /\.scss$/, loaders: [ 'autoprefixer', 'style', 'css', 'postcss', 'sass' ] },
+      { test: /\.css$/, loaders: [ 'style', 'css', 'postcss' ] },
+      { test: /\.scss$/, loaders: [ 'style', 'css', 'postcss', 'sass' ] },
       { test: /\.eot/, loader: 'url?limit=100000&mimetype=application/vnd.ms-fontobject' },
       { test: /\.woff2(\?\S*)?$/, loader: 'url-loader?limit=100000&mimetype=application/font-woff2' },
       { test: /\.woff/, loader: 'url?limit=100000&mimetype=application/font-woff' },
