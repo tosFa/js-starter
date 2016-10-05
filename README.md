@@ -7,19 +7,27 @@ Prerequisites
 
 node 5  (I use v5.3.0)
 
-Installation
-
+# Installation
+```bash
 git clone https://github.com/tosFa/js-starter.git
 
 cd js-starter
 
-npm install
+npm i
+```
+## build the project
 
-npm run build - to build the project
+```bash
+npm run build
+```
+## Start an express server with webpack-dev-middleware and webpack-hot-middleware on http://localhost:3000
+```bash
+npm run start-dev
+```
 
-npm run start-dev to start an express server with webpack-dev-middleware and webpack-hot-middleware on http://localhost:3000
-
-npm run start-dev-server to start a webpack-dev-server on http://localhost:8080
-
+## Start a webpack-dev-server on http://localhost:8080
+```bash
+npm run start-dev-server
+```
 npm run start to start a "production" server on http://localhost:3001
 
